@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+    .slides .owl-carousel .text {
+        display: none;
+    }
+    #ngd {
+        width: auto !important;
+        height: auto !important;
+    }
+    footer .col-lg-3{
+        padding: 15px;
+    }
+    .search {
+        padding: 50px 0px;
+    }
+    .abc{
+        width: 100% !important;
+    }
+    .gramming .title h3 {
+         width: 100%;
+    }
+    .sumale .title h3 {
+        width: 100%;
+    }
+    .start h3 {
+        width: 100%;
+    }
+    .dangky {
+        padding: 0;
+    }
+    .dangky .col67 {
+        padding: 50px 10px; 
+    }
+    .compu .things {
+        width: 100%;
+        transform: translateY(0%);
+    }
+    .compu .things .col-lg-7 {
+        border-right: 0;
+    }
+    .compu .data .thing .text {
+        width: 100%;
+        height: auto;
+    }
+    .compu .data .thing .text p {
+        transform: translateY(0%); 
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .tems .things .item {
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+    .bt {
+        width: 250px;
+    }
+    .name .img {
+        width: 200px;
+        height: 275px;
+        margin: auto;
+    }
+    .name .img img {
+        object-fit: cover;
+    }
+    .name .d-flex p {
+        font-size: 25px;
+    }
+    .new .d-flex span {
+        width: 50%;
+    }
+    .viet-hoi-dap .texts {
+        padding-left: 0 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        max-width: 1366px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #header {
+        display: none;
+    }
+    #hd-mobile {
+        display: flex;
+        align-items: center;
+    }
+    .img .texts {
+        display: none;
+    }
+    .header-top {
+        display: none;
+    }
+}
